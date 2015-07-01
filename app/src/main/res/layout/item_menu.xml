@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@+id/v_state"
+        android:layout_marginLeft="8dp"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/oval_overdue" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="做AndroidUI"
+            android:textColor="@color/gray"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="9:00-11:30"
+            android:textColor="#0397a5"
+            android:textSize="16dp" />
+        <View
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginRight="24dp"
+            android:background="#aaaaaa"/>
+
+    </LinearLayout>
+</LinearLayout>
+

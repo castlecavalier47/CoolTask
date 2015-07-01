@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_blue_500">#00bbd4</color>
+    <color name="material_blue_700">#0397a5</color>
+    <color name="material_green_A200">#e4e154</color>
+    <color name="state_menu_item_selected">#44009688</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="translucence">#90000000</color>
+    <color name="black">#444444</color>
+    <color name="gray">#888888</color>
+    <color name="white">#ffffff</color>
+
+    <color name="completed">#50d2c2</color>
+    <color name="snoozed">#fcab53</color>
+    <color name="overdue">#ba77ff</color>
+
+</resources>
